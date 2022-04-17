@@ -3,10 +3,10 @@ import { countries } from "../countries";
 const SupportedCountry = () => {
   return (
     <div>
-      <h2 className="text-[#0f3256] font-bold text-3xl flex justify-center items-center">
+      <h2 className="text-[#0f3256] font-bold text-2xl lg:text-3xl flex justify-center items-center p-4 lg:p-0">
         Public Holidays for over 230 Countries
       </h2>
-      <p className="text-[#0f3256] text-sm font-medium flex justify-center items-center mt-2">
+      <p className="text-[#0f3256] text-sm font-medium flex justify-center items-center mt-0 lg:mt-2 p-4 lg:p-0">
         Our end-to-end platform offers the most comprehensive holiday and
         working dataset of over 200 countries around the world. Below is the
         list of countries we currently support.
