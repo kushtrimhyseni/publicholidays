@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import HolidaysAPI from "./components/HolidaysAPI";
 import SupportedCountry from "./components/SupportedCountry";
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <HolidaysAPI />
       <SupportedCountry />
+      <Footer />
     </>
   );
 }
