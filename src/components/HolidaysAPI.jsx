@@ -12,7 +12,7 @@ const HolidaysAPI = () => {
   const getHolidays = async (selectedCountry) => {
     try {
       const response = await axios.get(
-        `https://calendarific.com/api/v2/holidays?&api_key=17a8e511976f0b92b548b63630db87df845bc631&country=${selectedCountry}&year=2022&type=national`
+        `https://calendarific.com/api/v2/holidays?&api_key=17a8e511976f0b92b548b63630db87df845bc631&country=${selectedCountry}&year=2023&type=national`
       );
       setHolidays(response.data.response.holidays);
       setError("");
