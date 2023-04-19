@@ -54,7 +54,7 @@ const SelectCountry = ({ options, onChange, disabledIndex }) => {
           aria-label="Disabled select example"
           disabled
         >
-          <option selected>Year: 2022</option>
+          <option selected>Year: 2023</option>
         </select>
       </div>
     </div>
